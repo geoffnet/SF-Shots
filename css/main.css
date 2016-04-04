@@ -1,0 +1,175 @@
+/* Start Designersblog.net Reset.css */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:none;}table{border-collapse:collapse;border-spacing:0;}
+/* End Designersblog.net Reset.css */
+
+html,body {
+	margin:0;
+	padding:0;
+	height:100%; /* needed for container min-height */
+	background:gray;
+	font-family:arial,helvetica,sans-serif;
+	font-size:small;
+	color:#000;
+}
+
+#map-canvas { 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    background-color: lightblue;
+}
+#slider-range { 
+    width: 358px;
+    margin-top: 12px;
+}
+
+.ui-autocomplete {
+    max-height: 100px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+}
+
+.expandBtn {
+    cursor: pointer;
+}
+
+#sidebarMinimized h1 {
+    margin-top: 12px;
+    z-index: 1;
+}
+
+#sidebarMinimized {
+	color: #fff;
+	margin: auto;
+	float: right;
+	position: relative;
+	padding-left: 12px;
+	padding-right: 12px;
+	text-align: center;
+	width: 52px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#sidebarMinimized {
+    padding-top: 8px;
+}
+
+#sidebarMinimized a img {
+    max-width: 67%;
+    box-shadow: 0px 0px 3px #333;
+}
+
+#sidebar {
+	background: rgba(0, 0, 0, .75);
+	color: #fff;
+	margin: 0px;
+	float: right;
+	position: relative;
+	padding-right: 18px;
+	padding-left: 18px;
+	text-align: center;
+	width: 410px;
+    height: 100%;
+	z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+#sidebar .toggle {
+    text-align: left;
+    color: #fff;
+    margin-top: 18px;
+}
+
+#sidebar h2 {
+    margin-top: -39px;
+    font-family: "chunk", serif;
+    font-size: 3.5em;
+    color: #3f93b8;
+	letter-spacing: .05em;
+}
+#sidebar h3 {
+    font: 12px Arial, Helvetica, Geneva, sans-serif;
+	color: #fff;
+	letter-spacing: .12em;
+    padding-bottom: 24px;
+}
+
+#tabs-dates input {
+    border: none;
+    font: Arial;
+    font-size: 14px;
+    font-weight: 700;
+    width: 98px;
+}
+
+#tabs-dates #min {
+    float:left;
+    color: grey;
+    font: Arial;
+    font-size: 14px;
+    margin-top: 4px
+}
+
+#tabs-dates #max {
+    float:right;
+    color: grey;
+    font: Arial;
+    font-size: 14px;
+    margin: 4px 4px 0 0;
+}
+
+#tabs-director .filter {
+    float: left;
+    margin: 4px 0 12px 0;
+    margin-left: auto;
+    font-weight: 700;
+}
+
+#tabs-director .ui-hint {
+    float: right;
+    color: grey;
+    font: Arial;
+    font-size: 12px;
+    margin-top: 8px
+}
+#tabs-director input {
+    width: 358px;
+    margin:auto;
+}
+#tabs-title .filter {
+    font-weight: 700;
+    float: left;
+    margin: 4px 0 12px 0;
+/*    margin-left: auto;    */
+}
+#tabs-title .ui-hint {
+    float: right;
+    color: grey;
+    font: Arial;
+    font-size: 12px;
+    margin-top: 8px
+}
+#sidebar dl {
+	margin-top: 30px
+}
+
+#dateHeader {
+    font: 18px bold Arial, Helvetica, Geneva, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.tableHeader {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 18px;
+    font: Arial, Helvetica, Geneva, sans-serif;
+}
