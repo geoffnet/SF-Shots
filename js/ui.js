@@ -5,8 +5,8 @@ $(function() {
 $(function() {
     $( "#slider-range" ).slider({
         range: true,
-        min: 1920,
-        max: 2010,
+        min: lowerBound,
+        max: upperBound,
         change: updateMap,        
         values: [ minRange, maxRange ],
         slide: function( event, ui ) {
