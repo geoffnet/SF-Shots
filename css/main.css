@@ -1,172 +1,227 @@
 /* Start Designersblog.net Reset.css */
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:none;}table{border-collapse:collapse;border-spacing:0;}
+/* line 2, ../sass/partials/reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 2, ../sass/partials/reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 2, ../sass/partials/reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 2, ../sass/partials/reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 2, ../sass/partials/reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 2, ../sass/partials/reset.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none;
+}
+
+/* line 2, ../sass/partials/reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 /* End Designersblog.net Reset.css */
-
-html,body {
-	margin: 0;
-	padding: 0;
-	height: 100%; /* needed for container min-height */
-	background: #808080;
-	font-family: Arial, Helvetica, Geneva, sans-serif;
-	font-size: small;
-	color: #000;
+/* line 1, ../sass/partials/layout.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /* needed for container min-height */
+  background: #808080;
+  font-family: Arial, Helvetica, Geneva, sans-serif;
+  font-size: small;
+  color: #000;
 }
 
-#map-canvas { 
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 0;
-    background-color: #add8e6;
-}
-#slider-range { 
-    width: 358px;
-    margin-top: 12px;
+/* line 10, ../sass/partials/layout.scss */
+#map-canvas {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  background-color: #add8e6;
 }
 
+/* line 19, ../sass/partials/layout.scss */
+#slider-range {
+  width: 358px;
+  margin-top: 12px;
+}
+
+/* line 23, ../sass/partials/layout.scss */
 .ui-autocomplete {
-    max-height: 100px;
-    overflow-y: auto;
-    overflow-x: hidden;
+  max-height: 100px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
+/* line 28, ../sass/partials/layout.scss */
 .expand-btn {
-    cursor: pointer;
+  cursor: pointer;
 }
 
+/* line 31, ../sass/partials/layout.scss */
+#sidebar-minimized {
+  color: #fff;
+  margin: auto;
+  float: right;
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-align: center;
+  width: 52px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 8px;
+}
+/* line 45, ../sass/partials/layout.scss */
 #sidebar-minimized h1 {
-    margin-top: 12px;
-    z-index: 1;
+  margin-top: 12px;
+  z-index: 1;
 }
-
-#sidebar-minimized {
-	color: #fff;
-	margin: auto;
-	float: right;
-	position: relative;
-	padding-left: 12px;
-	padding-right: 12px;
-	text-align: center;
-	width: 52px;
-    height: 100px;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-
-#sidebar-minimized {
-    padding-top: 8px;
-}
-
+/* line 49, ../sass/partials/layout.scss */
 #sidebar-minimized a img {
-    max-width: 67%;
-    box-shadow: 0px 0px 3px #333;
+  max-width: 67%;
+  box-shadow: 0px 0px 3px #333;
 }
 
+/* line 54, ../sass/partials/layout.scss */
 #sidebar {
-	background: rgba(0, 0, 0, .75);
-	color: #fff;
-	margin: 0px;
-	float: right;
-	position: relative;
-	padding-right: 18px;
-	padding-left: 18px;
-	text-align: center;
-	width: 410px;
-    height: 100%;
-	z-index: 1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  margin: 0px;
+  float: right;
+  position: relative;
+  padding-right: 18px;
+  padding-left: 18px;
+  text-align: center;
+  width: 410px;
+  height: 100%;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
+/* line 70, ../sass/partials/layout.scss */
 #sidebar .toggle {
-    text-align: left;
-    color: #fff;
-    margin-top: 18px;
+  text-align: left;
+  color: #fff;
+  margin-top: 18px;
 }
-
+/* line 75, ../sass/partials/layout.scss */
 #sidebar h2 {
-    margin-top: -39px;
-    font-family: "chunk", serif;
-    font-size: 3.5em;
-    color: #3f93b8;
-	letter-spacing: .05em;
+  margin-top: -39px;
+  margin-bottom: 4px;
+  font-family: "chunk", serif;
+  font-size: 3.5em;
+  color: #3f93b8;
+  letter-spacing: .05em;
 }
+/* line 83, ../sass/partials/layout.scss */
 #sidebar h3 {
-    font: 12px Arial, Helvetica, Geneva, sans-serif;
-	color: #fff;
-	letter-spacing: .12em;
-    padding-bottom: 24px;
+  margin-bottom: -10px;
+  font: 12px Arial, Helvetica, Geneva, sans-serif;
+  color: #fff;
+  letter-spacing: .12em;
+  padding-bottom: 24px;
 }
 
+/* line 93, ../sass/partials/layout.scss */
 #tabs-dates input {
-    border: none;
-    font: Arial;
-    font-size: 14px;
-    font-weight: 700;
-    width: 98px;
+  border: none;
+  font: Arial;
+  font-size: 14px;
+  font-weight: 700;
+  width: 98px;
 }
-
+/* line 100, ../sass/partials/layout.scss */
 #tabs-dates #min {
-    float:left;
-    color: grey;
-    font: Arial;
-    font-size: 14px;
-    margin-top: 4px
+  float: left;
+  color: grey;
+  font: Arial;
+  font-size: 14px;
+  margin-top: 4px;
 }
-
+/* line 107, ../sass/partials/layout.scss */
 #tabs-dates #max {
-    float:right;
-    color: grey;
-    font: Arial;
-    font-size: 14px;
-    margin: 4px 4px 0 0;
+  float: right;
+  color: grey;
+  font: Arial;
+  font-size: 14px;
+  margin: 4px 4px 0 0;
 }
 
+/* line 117, ../sass/partials/layout.scss */
 #tabs-director .filter {
-    float: left;
-    margin: 4px 0 12px 0;
-    font-weight: 700;
+  float: left;
+  margin: 4px 0 12px 0;
+  font-weight: 700;
 }
-
+/* line 122, ../sass/partials/layout.scss */
 #tabs-director .ui-hint {
-    float: right;
-    color: grey;
-    font: Arial;
-    font-size: 12px;
-    margin-top: 6px
+  float: right;
+  color: grey;
+  font: Arial;
+  font-size: 12px;
+  margin-top: 6px;
 }
+/* line 129, ../sass/partials/layout.scss */
 #tabs-director input {
-    width: 358px;
-    margin:auto;
-}
-#tabs-title .filter {
-    float: left;
-    margin: 4px 0 12px 0;    
-    font-weight: 700;
-}
-#tabs-title .ui-hint {
-    float: right;
-    color: grey;
-    font: Arial, Helvetica, Geneva, sans-serif;
-    font-size: 12px;
-    margin-top: 6px;
-}
-#sidebar dl {
-	margin-top: 30px
+  width: 358px;
+  margin: auto;
 }
 
-#date-header {
-    font: 18px bold Arial, Helvetica, Geneva, sans-serif;
-    text-transform: uppercase;
-    text-align: center;
+/* line 135, ../sass/partials/layout.scss */
+#tabs-title .filter {
+  float: left;
+  margin: 4px 0 12px 0;
+  font-weight: 700;
 }
+/* line 140, ../sass/partials/layout.scss */
+#tabs-title .ui-hint {
+  float: right;
+  color: grey;
+  font: Arial, Helvetica, Geneva, sans-serif;
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+/* line 148, ../sass/partials/layout.scss */
+#date-header {
+  font: 18px bold Arial, Helvetica, Geneva, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 153, ../sass/partials/layout.scss */
 .table-header {
-    font-weight: bold;
-    font-size: 14px;
-    margin-bottom: 18px;
-    font: Arial, Helvetica, Geneva, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 18px;
+  font: Arial, Helvetica, Geneva, sans-serif;
 }
