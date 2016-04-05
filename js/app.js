@@ -7,7 +7,7 @@ var minRange = 1940,
     layer,
     table = "1x8noYJ9JEr0g3ObbFG03cT9VbsRgAVpcyqbqS8k";
     
-function initialize() {
+$(function() { // initialize maps + sidebar ()
     
     $('#min').text(lowerBound);
     $('#max').text(upperBound);
@@ -37,16 +37,13 @@ function initialize() {
         styleId: 5,
         templateId: 4
     });
-}
-
-$(function() {
     
     // Set first tab active by default 
     $( "#tabs" ).tabs();
     
     // Toggle sidebar and hide icons at launch
     $("#sidebar-minimized").hide();
-    $(".expand-btn").bind('click', function() {
+    $(".expand-btn, .collapse-btn").bind('click', function() {
         $("#sidebar").toggle();
         $("#sidebar-minimized").toggle();
     });
@@ -83,7 +80,7 @@ function updateMap() {
     });
 }
 
-$(function() {
+$(function() { // instantiate director names for autocomplete
     var availableNames = [
         "Michael Ferris Gibson",
         "Walter Hill",
@@ -294,7 +291,7 @@ $(function() {
     });
 });
 
-$(function() {
+$(function() { // instantiate titles for autocomplete
     var availableTitles = [
         "24 Hours on Craigslist",
         "48 Hours",
