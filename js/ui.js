@@ -20,7 +20,6 @@ $(function() {
 function updateMap() {
     minRange = $( "#slider-range" ).slider( "values", 0 );
     maxRange = $( "#slider-range" ).slider( "values", 1 );
-//    console.log(minRange + ", " + maxRange);
     layer.setMap(); // clears markers
     layer = new google.maps.FusionTablesLayer({
         query: {
@@ -522,8 +521,6 @@ function updateDirMap() {
         templateId: 4
     });
 }
-
-//    console.log("select location from " + table + " where col1=" + year);
 
 // Toggle Sidebar and Hide Icons at Launch
 $("#sidebarMinimized").hide();

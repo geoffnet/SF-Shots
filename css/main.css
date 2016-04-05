@@ -130,7 +130,6 @@ html,body {
 #tabs-director .filter {
     float: left;
     margin: 4px 0 12px 0;
-    margin-left: auto;
     font-weight: 700;
 }
 
@@ -139,24 +138,23 @@ html,body {
     color: grey;
     font: Arial;
     font-size: 12px;
-    margin-top: 8px
+    margin-top: 6px
 }
 #tabs-director input {
     width: 358px;
     margin:auto;
 }
 #tabs-title .filter {
-    font-weight: 700;
     float: left;
-    margin: 4px 0 12px 0;
-/*    margin-left: auto;    */
+    margin: 4px 0 12px 0;    
+    font-weight: 700;
 }
 #tabs-title .ui-hint {
     float: right;
     color: grey;
     font: Arial;
     font-size: 12px;
-    margin-top: 8px
+    margin-top: 6px;
 }
 #sidebar dl {
 	margin-top: 30px

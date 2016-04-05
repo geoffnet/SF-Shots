@@ -26,6 +26,7 @@ function initialize() {
         scaleControl: false,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     });
+    
     layer = new google.maps.FusionTablesLayer({
         query: {
             select: "location",
