@@ -1,5 +1,14 @@
 $(function() {
+    
+    // Set first tab active by default 
     $( "#tabs" ).tabs();
+    
+    // Toggle sidebar and hide icons at launch
+    $("#sidebar-minimized").hide();
+    $(".expand-btn").bind('click', function() {
+        $("#sidebar").toggle();
+        $("#sidebar-minimized").toggle();
+    });
 });
 
 $(function() {
@@ -521,10 +530,3 @@ function updateDirMap() {
         templateId: 4
     });
 }
-
-// Toggle Sidebar and Hide Icons at Launch
-$("#sidebar-minimized").hide();
-$(".expand-btn").bind('click', function() {
-    $("#sidebar").toggle();
-    $("#sidebar-minimized").toggle();
-});
