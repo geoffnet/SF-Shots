@@ -23,7 +23,7 @@ function updateMap() {
     layer.setMap(); // clears markers
     layer = new google.maps.FusionTablesLayer({
         query: {
-            select: "location", // aka col2
+            select: "location",
             from: "1x8noYJ9JEr0g3ObbFG03cT9VbsRgAVpcyqbqS8k",
             where: "col1>="+minRange+" and col1<="+maxRange
         },
@@ -497,7 +497,7 @@ function updateTitleMap() {
     layer.setMap(); // clears markers
     layer = new google.maps.FusionTablesLayer({
         query: {
-            select: "location", // aka col2
+            select: "location",
             from: "1x8noYJ9JEr0g3ObbFG03cT9VbsRgAVpcyqbqS8k",
             where: "Title='" + title + "'"
         },
@@ -512,7 +512,7 @@ function updateDirMap() {
     layer.setMap(); // clears markers
     layer = new google.maps.FusionTablesLayer({
         query: {
-            select: "location", // aka col2
+            select: "location",
             from: "1x8noYJ9JEr0g3ObbFG03cT9VbsRgAVpcyqbqS8k",
             where: "col7 in ('" + director + "')"
         },
@@ -523,8 +523,8 @@ function updateDirMap() {
 }
 
 // Toggle Sidebar and Hide Icons at Launch
-$("#sidebarMinimized").hide();
-$(".expandBtn").bind('click', function() {
+$("#sidebar-minimized").hide();
+$(".expand-btn").bind('click', function() {
     $("#sidebar").toggle();
-    $("#sidebarMinimized").toggle();
+    $("#sidebar-minimized").toggle();
 });

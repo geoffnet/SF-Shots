@@ -3,13 +3,13 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 /* End Designersblog.net Reset.css */
 
 html,body {
-	margin:0;
-	padding:0;
-	height:100%; /* needed for container min-height */
-	background:gray;
-	font-family:arial,helvetica,sans-serif;
-	font-size:small;
-	color:#000;
+	margin: 0;
+	padding: 0;
+	height: 100%; /* needed for container min-height */
+	background: #808080;
+	font-family: Arial, Helvetica, Geneva, sans-serif;
+	font-size: small;
+	color: #000;
 }
 
 #map-canvas { 
@@ -19,7 +19,7 @@ html,body {
     left: 0;
     right: 0;
     z-index: 0;
-    background-color: lightblue;
+    background-color: #add8e6;
 }
 #slider-range { 
     width: 358px;
@@ -29,20 +29,19 @@ html,body {
 .ui-autocomplete {
     max-height: 100px;
     overflow-y: auto;
-    /* prevent horizontal scrollbar */
     overflow-x: hidden;
 }
 
-.expandBtn {
+.expand-btn {
     cursor: pointer;
 }
 
-#sidebarMinimized h1 {
+#sidebar-minimized h1 {
     margin-top: 12px;
     z-index: 1;
 }
 
-#sidebarMinimized {
+#sidebar-minimized {
 	color: #fff;
 	margin: auto;
 	float: right;
@@ -57,11 +56,11 @@ html,body {
     right: 0;
 }
 
-#sidebarMinimized {
+#sidebar-minimized {
     padding-top: 8px;
 }
 
-#sidebarMinimized a img {
+#sidebar-minimized a img {
     max-width: 67%;
     box-shadow: 0px 0px 3px #333;
 }
@@ -152,7 +151,7 @@ html,body {
 #tabs-title .ui-hint {
     float: right;
     color: grey;
-    font: Arial;
+    font: Arial, Helvetica, Geneva, sans-serif;
     font-size: 12px;
     margin-top: 6px;
 }
@@ -160,12 +159,12 @@ html,body {
 	margin-top: 30px
 }
 
-#dateHeader {
+#date-header {
     font: 18px bold Arial, Helvetica, Geneva, sans-serif;
     text-transform: uppercase;
     text-align: center;
 }
-.tableHeader {
+.table-header {
     font-weight: bold;
     font-size: 14px;
     margin-bottom: 18px;

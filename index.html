@@ -29,15 +29,15 @@ src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <body onload="initialize()">
     <div id="map-canvas"></div>
 
-    <div id="sidebarMinimized">
+    <div id="sidebar-minimized">
       <h1>
-          <a class="expandBtn"><img src="images/expand.png"></a>
+          <a class="expand-btn"><img src="images/expand.png"></a>
       </h1>
     </div>
     
     <div id="sidebar">
         <div class="toggle">
-            <a class="expandBtn">
+            <a class="expand-btn">
                 <img src="images/collapse.png">
             </a>
         </div>
@@ -51,7 +51,7 @@ src="http://maps.google.com/maps/api/js?sensor=false"></script>
             <li><a href="#tabs-title">Title</a></li>
           </ul>
           <div id="tabs-dates">
-            <div id="dateHeader">
+            <div id="date-header">
               <label for="amount"></label>
               <input type="text" id="amount"/>
               <span id="min"></span>
@@ -59,7 +59,7 @@ src="http://maps.google.com/maps/api/js?sensor=false"></script>
             </div>
             <div id="slider-range"></div>
             <div id="histoDate" style="margin-top: 18px;">
-              <div class="tableHeader">Total Film Shots (By Year)</div>
+              <div class="table-header">Total Film Shots (By Year)</div>
               <iframe width="358" height="254" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?containerId=gviz_canvas&amp;q=select+col1%2C+count()+from+1x8noYJ9JEr0g3ObbFG03cT9VbsRgAVpcyqbqS8k+group+by+col1+order+by+col1+asc+limit+100&amp;viz=GVIZ&amp;t=COLUMN&amp;uiversion=2&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;gco_vAxes=%5B%7B%22title%22%3Anull%2C+%22minValue%22%3A0%2C+%22maxValue%22%3A50%2C+%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3A50%2C+%22min%22%3A0%7D%2C+%22titleTextStyle%22%3A%7B%22color%22%3A%22%23ffffff%22%2C+%22fontSize%22%3A12%2C+%22italic%22%3Atrue%7D%2C+%22textStyle%22%3A%7B%22color%22%3A%22%23ffffff%22%2C+%22fontSize%22%3A12%7D%2C+%22viewWindowMode%22%3A%22explicit%22%7D%2C%7B%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3Anull%2C+%22min%22%3Anull%7D%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%7D%5D&amp;gco_useFirstColumnAsDomain=true&amp;gco_isStacked=false&amp;gco_booleanRole=certainty&amp;gco_hAxis=%7B%22useFormatFromData%22%3Atrue%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%2C+%22viewWindow%22%3Anull%2C+%22viewWindowMode%22%3Anull%2C+%22slantedTextAngle%22%3A30%2C+%22slantedText%22%3Atrue%2C+%22textStyle%22%3A%7B%22color%22%3A%22%23ffffff%22%2C+%22fontSize%22%3A12%7D%2C+%22titleTextStyle%22%3A%7B%22color%22%3A%22%23ffffff%22%2C+%22fontSize%22%3A12%2C+%22italic%22%3Atrue%7D%7D&amp;gco_legend=none&amp;gco_title=&amp;gco_series=%7B%220%22%3A%7B%22color%22%3A%22%236fa8dc%22%2C+%22targetAxisIndex%22%3A0%7D%7D&amp;gco_backgroundColor=%7B%22fill%22%3A%22%23434343%22%7D&amp;gco_titleTextStyle=%7B%22color%22%3A%22%23ffffff%22%2C+%22fontSize%22%3A12%2C+%22bold%22%3Atrue%7D&amp;gco_legendTextStyle=%7B%22color%22%3A%22%23ffffff%22%2C+%22fontSize%22%3A12%7D&amp;att=true&amp;width=374&amp;height=239"></iframe>
             </div>      
           </div>
@@ -70,7 +70,7 @@ src="http://maps.google.com/maps/api/js?sensor=false"></script>
               <input id="directors"/>
             </div>
             <div id="histoDir" style="margin-top: 18px;">
-              <div class="tableHeader">Total Film Shots (By Year)</div>
+              <div class="table-header">Total Film Shots (By Year)</div>
               <iframe width="358" height="254" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?containerId=gviz_canvas&amp;q=select+col1%2C+count()+from+1x8noYJ9JEr0g3ObbFG03cT9VbsRgAVpcyqbqS8k+group+by+col1+order+by+col1+asc+limit+100&amp;viz=GVIZ&amp;t=COLUMN&amp;uiversion=2&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;gco_vAxes=%5B%7B%22title%22%3Anull%2C+%22minValue%22%3A0%2C+%22maxValue%22%3A50%2C+%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3A50%2C+%22min%22%3A0%7D%2C+%22titleTextStyle%22%3A%7B%22color%22%3A%22%23ffffff%22%2C+%22fontSize%22%3A12%2C+%22italic%22%3Atrue%7D%2C+%22textStyle%22%3A%7B%22color%22%3A%22%23ffffff%22%2C+%22fontSize%22%3A12%7D%2C+%22viewWindowMode%22%3A%22explicit%22%7D%2C%7B%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3Anull%2C+%22min%22%3Anull%7D%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%7D%5D&amp;gco_useFirstColumnAsDomain=true&amp;gco_isStacked=false&amp;gco_booleanRole=certainty&amp;gco_hAxis=%7B%22useFormatFromData%22%3Atrue%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%2C+%22viewWindow%22%3Anull%2C+%22viewWindowMode%22%3Anull%2C+%22slantedTextAngle%22%3A30%2C+%22slantedText%22%3Atrue%2C+%22textStyle%22%3A%7B%22color%22%3A%22%23ffffff%22%2C+%22fontSize%22%3A12%7D%2C+%22titleTextStyle%22%3A%7B%22color%22%3A%22%23ffffff%22%2C+%22fontSize%22%3A12%2C+%22italic%22%3Atrue%7D%7D&amp;gco_legend=none&amp;gco_title=&amp;gco_series=%7B%220%22%3A%7B%22color%22%3A%22%236fa8dc%22%2C+%22targetAxisIndex%22%3A0%7D%7D&amp;gco_backgroundColor=%7B%22fill%22%3A%22%23434343%22%7D&amp;gco_titleTextStyle=%7B%22color%22%3A%22%23ffffff%22%2C+%22fontSize%22%3A12%2C+%22bold%22%3Atrue%7D&amp;gco_legendTextStyle=%7B%22color%22%3A%22%23ffffff%22%2C+%22fontSize%22%3A12%7D&amp;att=true&amp;width=374&amp;height=239"></iframe>
             </div>
           </div>
@@ -81,7 +81,7 @@ src="http://maps.google.com/maps/api/js?sensor=false"></script>
               <input id="titles" style="width: 358px; margin:auto;"/>
             </div>
             <div id="histoTitle" style="margin-top: 18px;">
-              <div class="tableHeader">Total Film Shots (By Year)</div>
+              <div class="table-header">Total Film Shots (By Year)</div>
               <iframe width="358" height="254" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?containerId=gviz_canvas&amp;q=select+col1%2C+count()+from+1x8noYJ9JEr0g3ObbFG03cT9VbsRgAVpcyqbqS8k+group+by+col1+order+by+col1+asc+limit+100&amp;viz=GVIZ&amp;t=COLUMN&amp;uiversion=2&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;gco_vAxes=%5B%7B%22title%22%3Anull%2C+%22minValue%22%3A0%2C+%22maxValue%22%3A50%2C+%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3A50%2C+%22min%22%3A0%7D%2C+%22titleTextStyle%22%3A%7B%22color%22%3A%22%23ffffff%22%2C+%22fontSize%22%3A12%2C+%22italic%22%3Atrue%7D%2C+%22textStyle%22%3A%7B%22color%22%3A%22%23ffffff%22%2C+%22fontSize%22%3A12%7D%2C+%22viewWindowMode%22%3A%22explicit%22%7D%2C%7B%22useFormatFromData%22%3Atrue%2C+%22viewWindow%22%3A%7B%22max%22%3Anull%2C+%22min%22%3Anull%7D%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%7D%5D&amp;gco_useFirstColumnAsDomain=true&amp;gco_isStacked=false&amp;gco_booleanRole=certainty&amp;gco_hAxis=%7B%22useFormatFromData%22%3Atrue%2C+%22minValue%22%3Anull%2C+%22maxValue%22%3Anull%2C+%22viewWindow%22%3Anull%2C+%22viewWindowMode%22%3Anull%2C+%22slantedTextAngle%22%3A30%2C+%22slantedText%22%3Atrue%2C+%22textStyle%22%3A%7B%22color%22%3A%22%23ffffff%22%2C+%22fontSize%22%3A12%7D%2C+%22titleTextStyle%22%3A%7B%22color%22%3A%22%23ffffff%22%2C+%22fontSize%22%3A12%2C+%22italic%22%3Atrue%7D%7D&amp;gco_legend=none&amp;gco_title=&amp;gco_series=%7B%220%22%3A%7B%22color%22%3A%22%236fa8dc%22%2C+%22targetAxisIndex%22%3A0%7D%7D&amp;gco_backgroundColor=%7B%22fill%22%3A%22%23434343%22%7D&amp;gco_titleTextStyle=%7B%22color%22%3A%22%23ffffff%22%2C+%22fontSize%22%3A12%2C+%22bold%22%3Atrue%7D&amp;gco_legendTextStyle=%7B%22color%22%3A%22%23ffffff%22%2C+%22fontSize%22%3A12%7D&amp;att=true&amp;width=374&amp;height=239"></iframe>        
             </div>
           </div>
