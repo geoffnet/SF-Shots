@@ -1,2 +1,2 @@
 # SF-Shots
-Data visualization created from shot data compiled by the SF Film Commission. For details, see detailed how-to at http://geoffnet.com/blog/2011/07/16/fusion-tables/
+Data visualization created from shot data compiled by the SF Film Commission, stored in Fusion Tables, and geomapped onto Google Maps using the Google Maps Javascript API. JQuery Mobile UI framework utilized to optimize for tablet display and interactivity. For more details, see the How To at http://geoffnet.com/blog/2011/07/16/fusion-tables/.
