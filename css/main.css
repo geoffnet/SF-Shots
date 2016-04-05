@@ -212,13 +212,18 @@ html, body {
 }
 
 /* line 148, ../sass/partials/layout.scss */
+#histogram-date, #histogram-director, #histogram-title {
+  margin-top: 18px;
+}
+
+/* line 151, ../sass/partials/layout.scss */
 #date-header {
   font: 18px bold Arial, Helvetica, Geneva, sans-serif;
   text-transform: uppercase;
   text-align: center;
 }
 
-/* line 153, ../sass/partials/layout.scss */
+/* line 156, ../sass/partials/layout.scss */
 .table-header {
   font-weight: bold;
   font-size: 14px;
