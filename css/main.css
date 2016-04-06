@@ -97,22 +97,12 @@ html, body {
 
 /* line 48, ../sass/partials/layout.scss */
 #sidebar-minimized {
-  color: #fff;
-  margin: auto;
-  float: right;
-  position: relative;
-  padding-left: 12px;
-  padding-right: 12px;
-  text-align: center;
-  width: 52px;
-  height: 100px;
-  top: 0;
-  left: 0;
-  right: 0;
-  padding-top: 8px;
+  position: absolute;
+  top: 0px;
+  right: 54px;
 }
 
-/* line 64, ../sass/partials/layout.scss */
+/* line 54, ../sass/partials/layout.scss */
 #sidebar {
   background: rgba(0, 0, 0, 0.75);
   color: #fff;
@@ -131,7 +121,7 @@ html, body {
   right: 0;
 }
 
-/* line 82, ../sass/partials/layout.scss */
+/* line 72, ../sass/partials/layout.scss */
 #sidebar-title {
   margin-top: 18px;
   margin-bottom: 4px;
@@ -141,7 +131,7 @@ html, body {
   letter-spacing: .05em;
 }
 
-/* line 91, ../sass/partials/layout.scss */
+/* line 81, ../sass/partials/layout.scss */
 #sidebar-subhead {
   margin-bottom: -10px;
   font-size: 12px;
@@ -151,7 +141,7 @@ html, body {
   padding-bottom: 24px;
 }
 
-/* line 100, ../sass/partials/layout.scss */
+/* line 90, ../sass/partials/layout.scss */
 #tabs-dates input {
   border: none;
   font-face: Arial, Helvetica, Geneva, sans-serif;
@@ -160,7 +150,7 @@ html, body {
   width: 98px;
 }
 
-/* line 108, ../sass/partials/layout.scss */
+/* line 98, ../sass/partials/layout.scss */
 #min {
   float: left;
   color: grey;
@@ -169,7 +159,7 @@ html, body {
   margin-top: 4px;
 }
 
-/* line 116, ../sass/partials/layout.scss */
+/* line 106, ../sass/partials/layout.scss */
 #max {
   float: right;
   color: grey;
@@ -178,20 +168,20 @@ html, body {
   margin: 4px 4px 0 0;
 }
 
-/* line 124, ../sass/partials/layout.scss */
+/* line 114, ../sass/partials/layout.scss */
 #tabs-director input {
   width: 358px;
   margin: auto;
 }
 
-/* line 129, ../sass/partials/layout.scss */
+/* line 119, ../sass/partials/layout.scss */
 .filter {
   float: left;
   margin: 4px 0 12px 0;
   font-weight: 700;
 }
 
-/* line 135, ../sass/partials/layout.scss */
+/* line 125, ../sass/partials/layout.scss */
 .input-hint {
   float: right;
   color: grey;
@@ -200,19 +190,19 @@ html, body {
   margin-top: 6px;
 }
 
-/* line 143, ../sass/partials/layout.scss */
+/* line 133, ../sass/partials/layout.scss */
 #histogram-date, #histogram-director, #histogram-title {
   margin-top: 18px;
 }
 
-/* line 147, ../sass/partials/layout.scss */
+/* line 137, ../sass/partials/layout.scss */
 #date-header {
   font: 18px bold Arial, Helvetica, Geneva, sans-serif;
   text-transform: uppercase;
   text-align: center;
 }
 
-/* line 153, ../sass/partials/layout.scss */
+/* line 143, ../sass/partials/layout.scss */
 .table-header {
   font-weight: bold;
   font-size: 14px;
