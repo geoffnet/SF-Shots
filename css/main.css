@@ -41,7 +41,7 @@ table {
 }
 
 /* End Designersblog.net Reset.css */
-/* line 1, ../sass/partials/layout.scss */
+/* line 4, ../sass/partials/layout.scss */
 html, body {
   margin: 0;
   padding: 0;
@@ -52,7 +52,7 @@ html, body {
   color: #000;
 }
 
-/* line 11, ../sass/partials/layout.scss */
+/* line 14, ../sass/partials/layout.scss */
 #map-canvas {
   position: absolute;
   top: 0;
@@ -63,20 +63,20 @@ html, body {
   background-color: #add8e6;
 }
 
-/* line 21, ../sass/partials/layout.scss */
+/* line 24, ../sass/partials/layout.scss */
 #slider-range {
   width: 358px;
   margin-top: 12px;
 }
 
-/* line 26, ../sass/partials/layout.scss */
+/* line 29, ../sass/partials/layout.scss */
 .ui-autocomplete {
   max-height: 100px;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
-/* line 32, ../sass/partials/layout.scss */
+/* line 35, ../sass/partials/layout.scss */
 .collapse-btn {
   position: absolute;
   cursor: pointer;
@@ -84,40 +84,37 @@ html, body {
   z-index: 1;
 }
 
-/* line 39, ../sass/partials/layout.scss */
+/* line 42, ../sass/partials/layout.scss */
 .expand-btn {
   position: absolute;
   cursor: pointer;
   top: 18px;
 }
-/* line 43, ../sass/partials/layout.scss */
+/* line 46, ../sass/partials/layout.scss */
 .expand-btn img {
   box-shadow: 0px 0px 3px #333;
 }
 
-/* line 48, ../sass/partials/layout.scss */
+/* line 51, ../sass/partials/layout.scss */
 #sidebar-minimized {
   position: absolute;
   top: 0px;
   right: 54px;
 }
 
-/* line 54, ../sass/partials/layout.scss */
+/* line 57, ../sass/partials/layout.scss */
 #sidebar {
   background: rgba(0, 0, 0, 0.75);
   color: #fff;
   margin: 0px;
   float: right;
   position: relative;
-  padding-right: 18px;
-  padding-left: 18px;
+  padding: 0 18px;
   text-align: center;
   width: 410px;
   height: 100%;
   z-index: 1;
   top: 0;
-  bottom: 0;
-  left: 0;
   right: 0;
 }
 
@@ -126,7 +123,7 @@ html, body {
   margin-top: 18px;
   margin-bottom: 4px;
   font-family: "chunk", serif;
-  font-size: 3.5em;
+  font-size: 48px;
   color: #3f93b8;
   letter-spacing: .05em;
 }
@@ -153,7 +150,7 @@ html, body {
 /* line 98, ../sass/partials/layout.scss */
 #min {
   float: left;
-  color: grey;
+  color: #aaa;
   font-face: Arial, Helvetica, Geneva, sans-serif;
   font-size: 14px;
   margin-top: 4px;
@@ -162,7 +159,7 @@ html, body {
 /* line 106, ../sass/partials/layout.scss */
 #max {
   float: right;
-  color: grey;
+  color: #aaa;
   font-face: Arial, Helvetica, Geneva, sans-serif;
   font-size: 14px;
   margin: 4px 4px 0 0;
@@ -184,7 +181,7 @@ html, body {
 /* line 125, ../sass/partials/layout.scss */
 .input-hint {
   float: right;
-  color: grey;
+  color: #aaa;
   font: Arial, Helvetica, Geneva, sans-serif;
   font-size: 12px;
   margin-top: 6px;
@@ -197,15 +194,17 @@ html, body {
 
 /* line 137, ../sass/partials/layout.scss */
 #date-header {
-  font: 18px bold Arial, Helvetica, Geneva, sans-serif;
+  font-face: Arial, Helvetica, Geneva, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
   text-transform: uppercase;
   text-align: center;
 }
 
-/* line 143, ../sass/partials/layout.scss */
+/* line 145, ../sass/partials/layout.scss */
 .table-header {
-  font-weight: bold;
   font-size: 14px;
+  font-weight: 700;
   margin-bottom: 18px;
   font: Arial, Helvetica, Geneva, sans-serif;
 }
